@@ -17,7 +17,6 @@ body {
     margin: 0px auto;
 }
 
-
 h2 { /*top-title*/
   font-size: 2em;
   text-align: center;
@@ -30,43 +29,27 @@ float: left;
 width: 450px;
 height: 300px;
 margin-top: 10px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+background-repeat: no-repeat;
 }
 
 .baku {
   background-image: url("../images/baku.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-repeat: no-repeat;
-
 }
 
 .london {
   background-image: url("../images/london.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-repeat: no-repeat;
 }
 
 .madrid {
   background-image: url("../images/madrid.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-repeat: no-repeat;
 }
 
 .rome {
   background-image: url("../images/rome.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-repeat: no-repeat;
 }
 
 h1 {
@@ -88,7 +71,6 @@ appearance of <> with 2 columns*/
 }
 
 .preview{
-float: left;
 width:49%;
 height:250px;
 padding: 0 5px 0 25px;
@@ -102,20 +84,13 @@ margin-top: 5px;
 @media only screen and (min-width: 1199px) and (orientation:landscape) {
   .container {
     width: 100%;
-    padding:;
+    padding:20px;
   }
 
   .preview{
-  float: left;
   width:24%;
-  height:250px;
   margin-right: 6px;
-  margin-top: 5px;
   margin-left: 5px;
   }
 
 }
-
-  }
-
-  }
